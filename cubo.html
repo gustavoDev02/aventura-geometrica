@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cubo</title>
+    <link rel="stylesheet" href="./assets/css/cubo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo"><img src="./images/forma-abstrata.png">
+                <h1 class="logo-titulo">Calculum</h1>
+            </span>
+        </nav>
+    </header>
+    <main>
+        <section class="forma-container">
+            <div class="voltar">
+                <a href="./index.html"> 
+                     
+                 <img src="./images/simbolo-de-seta-para-a-esquerda-em-um-circulo.png" alt="">
+  
+                </a>
+            </div>
+            
+            <div class="formas-cabecalho">
+                <h2 class="titulo-formas">Cálculo da Área de um Cubo</h2>
+                <h3 class="subtitulo-formas">Digite as informações necessarios para o cálculo</h3>
+            </div>
+            <div class="forma-imagem">
+                <img src="./images/cubo.png" alt="forma geometrica arredondada">
+            </div>
+            <div class="forma-info">
+                <div class="info-forma1">
+                    <h2>Área de um Cubo</h2>
+                    <p>A área do cubo que está ligado diretamente a superfície desta figura geométrica espacial pode ser um hexaedro de formato regular. Essa característica é possível porque o cubo possui 6 faces de medidas quadrangulares. O cubo também é considerado um prisma com base quadrada ou pode ser visto como um paralelepípedo com formato retangular.
+                    </p>
+                    <p>o cubo também possui arestas relativo a cada face da figura correspondente de congruência perpendicular. São no total 12 arestas (arestas de segmentos retos) com 8 vértice (pontos) dispostos a cada aresta.</p>
+                    <p>Para calcular a área do cubo devemos utilizar a seguinte fórmula:</p>
+                </div>  
+                <div class="info-forma2">
+                    <p>At = 6.a²</p>
+                    <p>Onde,</p>
+                    <p>At = área total</p>
+                    <p>a = medida da aresta de um cubo</p>
+                </div>
+
+                <div class="info-forma1">
+                    <h2>Cálculo da área de um cubo</h2>
+                    <p>Existem três tipos de cálculos de área em um cubo, sendo eles: cálculo da área total, cálculo da área da base e o cálculo da área lateral.
+                    </p>
+                    <p>A área total de um cubo (At) que está ligado a soma das áreas de um polígono, é a soma de todas as áreas ligadas a base junto a área lateral.</p>
+                    <p>A área da base de um cubo (Ab) tem relação direta com duas bases de formato quadrado e congruente que essa figura possui.</p>
+                </div>
+
+                <div class="info-forma1">
+                    <h2>Área da base de um cubo</h2>
+                    <div class="info-forma2">
+                        <p>Ab = a²</p>
+                        <p>Onde,</p>
+                        <p>Ab = área da base</p>
+                        <p>a = medida da aresta de um cubo</p>
+                    </div>
+                </div> 
+                <div class="info-forma1">
+                    <h2>Área Lateral de um cubo</h2>
+                    <div class="info-forma2">
+                        <p>Al = 4a²</p>
+                        <p>Onde,</p>
+                        <p>Al = é referente a área lateral</p>
+                        <p>a = medida da aresta de um cubo</p>
+                    </div>
+                    <p>
+                        Todas as arestas de um cubo podem ser vistas como lados, e assim também são chamadas. Todas as diagonais de um cubo apresentam o segmento de reta ligado a dois vértices, podendo ser calculada através da fórmula: d = a√3. 
+                    </p>
+                </div> 
+            </div>
+        </section>
+
+        <section class="calculadora">
+            <form>
+                <fieldset>
+                    <div class="formulario">
+                        <div class="titulo-formulario">
+                            <h2>Calculadora de Formas</h2>
+                        </div>
+                        <div class="imagem-forma">
+                            <img src="./images/cubo.png" alt="">
+                        </div>
+                        <div class="campo">
+                            <label>Lado do quadrado: </label>
+                            <input type="text" name="ladoQuadrado" id="ladoQuadrado">
+                        </div>
+                        <div class="campo">
+                            <label>Área do quadrado: </label>
+                            <input type='text' name="areaQuadrado" id="areaQuadrado" disabled>
+                        </div>
+                        <button type="submit" id="calcular">Calcular</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h5 class="copyright">©Calculum 2024</h5>
+        <h5 class="autor-page">Feito por: Gustavo Araujo da Silva </h5>
+    </footer>
+
+    <script src="./js/cubo.js"></script>
+</body>
+</html>

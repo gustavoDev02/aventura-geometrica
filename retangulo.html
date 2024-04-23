@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>retangulo</title>
+    <link rel="stylesheet" href="./assets/css/retangulo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo"><img src="./images/forma-abstrata.png">
+                <h1 class="logo-titulo">Calculum</h1>
+            </span>
+        </nav>
+    </header>
+    <main>
+        <section class="forma-container">
+            <div class="voltar">
+                <a href="./index.html">  
+                 <img src="./images/simbolo-de-seta-para-a-esquerda-em-um-circulo.png" alt="">
+                </a>
+            </div>
+            
+            <div class="formas-cabecalho">
+                <h2 class="titulo-formas">Cálculo da Área de um Retângulo</h2>
+                <h3 class="subtitulo-formas">Digite as informações necessarios para o cálculo</h3>
+            </div>
+            <div class="forma-imagem">
+                <img src="./images/retangulo.png" alt="forma geometrica arredondada">
+            </div>
+            <div class="forma-info">
+                <div class="info-forma1">
+                    <h2>Área de um Retângulo</h2>
+                    <p>A área do retângulo é uma grandeza que mede a superfície desse paralelogramo. O retângulo é um caso particular de quadrilátero, fazendo parte do grupo daqueles que possuem todos os ângulos internos retos.</p>
+
+                    <p>Para calcular a área do retângulo, basta calcular o produto entre a sua base e a sua altura, ou seja, a área é dada pela fórmula A=b⋅h
+                    </p>
+                    
+                    <p>Além da área, outra grandeza importante é o perímetro. Para calcular o perímetro de um retângulo, deve-se somar os seus quatro lados. Logo, o perímetro pode ser encontrado pela fórmula P=2(b+h)
+                    .</p>
+
+                    <p>A área é uma grandeza importante para o estudo dos polígonos — trata-se da medida da superfície de uma figura plana. Para calcular a área de um retângulo, é necessário multiplicar o valor da base pelo valor da altura. Assim, é preciso conhecer os comprimentos da base e da altura. A fórmula para calcular a área de um retângulo de base b e altura h é:
+                    </p>
+                </div>  
+                <div class="info-forma2">
+                    <p>A=b⋅h</p>
+                    <p>Onde,</p>
+                    <p>b: base</p>
+                    <p>h: altura</p>
+                </div>
+                <div class="info-forma1">
+                    <div class="info-forma1">
+                        <h2>Resumo sobre área do retângulo</h2>
+                        <p>O retângulo é um polígono que possui quatro lados e todos os ângulos internos retos.</p>
+
+                        <p>Para calcular a área de um retângulo, calculamos o produto entre a sua base (b) e a sua altura (h):
+                        </p>
+    
+                        <div class="info-forma2">
+                            <p>A=b⋅h</p>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="info-forma1">
+                    <div class="info-forma1">
+                        <p>O perímetro do retângulo é igual à soma dos seus 4 lados e pode ser calculado pela fórmula:</p>
+                        <div class="info-forma2">
+                            <p>P=2(b+h)</p>
+                        </div>
+                        <p>A diagonal do retângulo o divide em dois triângulos retângulos, sendo necessário apenas aplicar o teorema de Pitágoras para encontrar seu valor:</p>
+                        <div class="info-forma2">
+                            <p>d²=h2²+b2²</p>
+                        </div>
+                    </div> 
+                </div> 
+            </div>
+        </section>
+
+        <section class="calculadora">
+            <form>
+                <fieldset>
+                    <div class="formulario">
+                        <div class="titulo-formulario">
+                            <h2>Calculadora de Formas</h2>
+                        </div>
+                        <div class="imagem-forma">
+                            <img src="./images/retangulo.png" alt="">
+                        </div>
+                        <div class="campo">
+                            <label>Base do retângulo: </label>
+                            <input type="text" name="baseRetangulo" id="baseRetangulo">
+                        </div>
+                        <div class="campo">
+                            <label>Altura do retângulo: </label>
+                            <input type="text" name="alturaRetangulo" id="alturaRetangulo">
+                        </div>
+                        <div class="campo">
+                            <label>Área do retângulo: </label>
+                            <input type='text' name="areaRetangulo" id="areaRetangulo" disabled>
+                        </div>
+                        <button type="submit" id="calcular">Calcular</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h5 class="copyright">©Calculum 2024</h5>
+        <h5 class="autor-page">Feito por: Gustavo Araujo da Silva </h5>
+    </footer>
+
+    <script src="./js/retangulo.js"></script>
+</body>
+</html>

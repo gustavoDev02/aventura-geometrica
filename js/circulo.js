@@ -1,5 +1,4 @@
 
-
 function calcularAreaCirulo(){
     let raioCirculo = document.getElementById('raioCirculo').value;
     let areaCirculo = 3.14 * (raioCirculo * raioCirculo);
