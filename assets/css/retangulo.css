@@ -135,6 +135,12 @@ p{
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 2.5rem;
+    width: 90%;
+}
+
+.info-central{
+    width: 100%;
+    text-align: center;
 }
 
 .info-forma2{

@@ -55,7 +55,8 @@ main{
     margin: auto; 
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 110vw;
+ 
 }
 
 .forma-container{
@@ -122,7 +123,7 @@ main{
     display: flex;
     flex-direction: column;
     gap:2.5rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 h2{
@@ -134,7 +135,25 @@ p{
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 2.5rem;
-    
+    width: 90%;
+}
+
+.info-central{
+    width: 100%;
+    text-align: center;
+}
+
+ul{
+    margin-left: 2rem;
+    font-family: Inter;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+ul li{
+    width: 90%;
 }
 
 .info-forma2{
@@ -142,8 +161,8 @@ p{
     height: 10%;
     display: flex;
     flex-direction: column;
-    gap:2rem;
-    margin-top: 5rem;
+    gap:1.5rem;
+    margin-top: 1rem;
     justify-content: center;
     align-items: center;
 }
@@ -160,7 +179,7 @@ h5{
 .calculadora{
     display: flex;
     justify-content: center;
-    height: 32rem;
+    height: 42rem;
     margin-top: 5%;
 }
 
@@ -184,7 +203,7 @@ h5{
 .imagem-forma >img{
     width: 8.949rem;
     background-color: #fff;
-    border-radius: 100px;
+    border-radius: 5px;
 }
 
 form{
@@ -202,7 +221,7 @@ form{
 input{
     border-radius: 4px;
     height: 100%;
-    margin-left: 15%;
+    margin-left: 21%;
 }
 
 .campo{

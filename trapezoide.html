@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>retangulo</title>
+    <link rel="stylesheet" href="./assets/css/trapezoide.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo"><img src="./images/forma-abstrata.png">
+                <h1 class="logo-titulo">Calculum</h1>
+            </span>
+        </nav>
+    </header>
+    <main>
+        <section class="forma-container">
+            <div class="voltar">
+                <a href="./index.html">  
+                 <img src="./images/simbolo-de-seta-para-a-esquerda-em-um-circulo.png" alt="">
+                </a>
+            </div>
+            
+            <div class="formas-cabecalho">
+                <h2 class="titulo-formas">Cálculo da Área de um Trapezio</h2>
+                <h3 class="subtitulo-formas">Digite as informações necessarios para o cálculo</h3>
+            </div>
+            <div class="forma-imagem">
+                <img src="./images/trapezio.png" alt="forma geometrica arredondada">
+            </div>
+            <div class="forma-info">
+                <div class="info-forma1">
+                    <h2>Área de um Trapézio</h2>
+                    <p>Para calcular a área de um trapézio qualquer, somamos os comprimentos da base maior com o da base menor, multiplicamos o resultado da soma pela altura do trapézio e dividimos o produto por dois. Então, para calcular a área desse polígono, é importante reconhecer o que é um trapézio e cada um dos seus elementos.</p>
+
+                    <p>Chamamos de trapézio uma figura plana fechada que possui quatro lados, sendo que dois deles são paralelos e os outros dois não. Os lados paralelos são conhecidos como bases, um deles é a base maior, e o outro a base menor do trapézio.
+                    </p>
+                    
+                    <p>Conhecemos três tipos de trapézio:</p>
+
+                    <p>
+                        <ul>
+                            <li>
+                                o trapézio é escaleno quando os lados não paralelos são diferentes;
+                            </li>
+                            <li>
+                                o trapézio é isósceles quando os lados não paralelos são congruentes; e
+                            </li>
+                            <li>
+                                o trapézio é retângulo quando um lado não paralelo faz um ângulo de 90º com as bases da figura.
+                            </li> 
+                        </ul>
+                    </p>
+
+                    <div class="info-forma1">
+                        <h2>Resumo sobre trapézio</h2>
+                        <p>Um trapézio é um polígono de quatro lados que possui dois lados paralelos conhecidos como base e dois lados não paralelos conhecidos como lados oblíquos.
+                        </p>
+                        <p>Para calcular a área do trapézio, utilizamos a fórmula:</p>
+                        <div class="info-forma2">
+                            <p class="info-central">A=(B+b) . h / 2</p>
+                            <p class="info-central">Onde,</p>
+                            <p class="info-central">B: base maior(B)</p>
+                            <p class="info-central">"b: base menor(b)</p>
+                            <p class="info-central">h: altura</p>
+                        </div>
+                        
+                        <h2>Tipos de trapézios</h2>
+                        <p>Podemos classificar um trapézio de acordo com as suas características. Um trapézio pode ser classificado como escaleno, isósceles ou retângulo.
+                        </p>
+                        
+                        <h2>Trapézio escaleno</h2>
+                        <p>Um trapézio é classificado como escaleno quando os seus lados oblíquos não são congruentes.
+                        </p>
+                        
+                        <h2>Trapézio retângulo</h2>
+                        <p>Um trapézio é classificado como retângulo quando um dos seus lados oblíquos faz com as bases um ângulo reto, ou seja, um ângulo de 90º.
+                        </p>
+                        <h2>Trapézio isósceles</h2>
+                        <p>Um trapézio é classificado como isósceles quando possui os lados oblíquos congruentes, ou seja, com a mesma medida.
+                        </p>
+                    </div>
+
+                </div>  
+            </div>
+        </section>
+
+        <section class="calculadora">
+            <form>
+                <fieldset>
+                    <div class="formulario">
+                        <div class="titulo-formulario">
+                            <h2>Calculadora de Formas</h2>
+                        </div>
+                        <div class="imagem-forma">
+                            <img src="./images/trapezio.png" alt="">
+                        </div>
+                        <div class="campo">
+                            <label>Base maior do trapezio: </label>
+                            <input type="text" name="baseMaiorTrap" id="baseMaiorTrap">
+                        </div>
+                        <div class="campo">
+                            <label>Base menor do trapezio: </label>
+                            <input type="text" name="baseMenorTrap" id="baseMenorTrap">
+                        </div>
+                        <div class="campo">
+                            <label>Altura do trapezio: </label>
+                            <input type="text" name="alturaTrap" id="alturaTrap">
+                        </div>
+                        <div class="campo">
+                            <label>Área do trapezio: </label>
+                            <input type='text' name="areaTrap" id="areaTrap" disabled>
+                        </div>
+                        <button type="submit" id="calcular">Calcular</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h5 class="copyright">©Calculum 2024</h5>
+        <h5 class="autor-page">Feito por: Gustavo Araujo da Silva </h5>
+    </footer>
+
+    <script src="./js/trapezio.js"></script>
+</body>
+</html>
