@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romboedro</title>
+    <link rel="stylesheet" href="./assets/css/romboedro.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo"><img src="./images/forma-abstrata.png">
+                <h1 class="logo-titulo">Calculum</h1>
+            </span>
+        </nav>
+    </header>
+    <main>
+        <section class="forma-container">
+            <div class="voltar">
+                <a href="./index.html"> 
+                     
+                 <img src="./images/simbolo-de-seta-para-a-esquerda-em-um-circulo.png" alt="">
+  
+                </a>
+            </div>
+            
+            <div class="formas-cabecalho">
+                <h2 class="titulo-formas">Cálculo da Área de um romboedro</h2>
+                <h3 class="subtitulo-formas">Digite as informações necessarios para o cálculo</h3>
+            </div>
+            <div class="forma-imagem">
+                <img src="./images/hexaedro.png" alt="forma geometrica arredondada">
+            </div>
+            <div class="forma-info">
+                <div class="info-forma1">
+                    <h2>Área de um Romboedro</h2>
+                    <p>Um romboedro é um poliedro de seis faces (hexaedro), todas elas losangos idênticos. Não se trata de um poliedro regular, porque ainda que suas faces sejam todas iguais (uniformes), não são polígonos regulares.</p>
+                    <p>O romboedro é um paralelepípedo capaz de preencher o espaço.</p>
+                </div>  
+            </div>
+        </section>
+
+        <section class="calculadora">
+            <form>
+                <fieldset>
+                    <div class="formulario">
+                        <div class="titulo-formulario">
+                            <h2>Calculadora de Formas</h2>
+                        </div>
+                        <div class="imagem-forma">
+                            <img src="./images/hexaedro.png" alt="">
+                        </div>
+                        <div class="campo">
+                            <label>Diagonal maior do romboedro: </label>
+                            <input type="text" name="diagonalMaior" id="diagonalMaior">
+                        </div>
+                        <div class="campo">
+                            <label>Diagonal menor do romboedro: </label>
+                            <input type="text" name="diagonaMenor" id="diagonaMenor">
+                        </div>
+                        <div class="campo">
+                            <label>Área do romboedro: </label>
+                            <input type='text' name="area" id="area" disabled>
+                        </div>
+                        <button type="submit" id="calcular">Calcular</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h5 class="copyright">©Calculum 2024</h5>
+        <h5 class="autor-page">Feito por: Gustavo Araujo da Silva </h5>
+    </footer>
+
+    <script src="./js/romboedro.js"></script>
+</body>
+</html>
