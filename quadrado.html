@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>circulo</title>
-    <link rel="stylesheet" href="./assets/css/circulo.css">
+    <title>quadrado</title>
+    <link rel="stylesheet" href="./assets/css/quadrado.css">
 </head>
 <body>
     <header>
@@ -25,43 +25,28 @@
             </div>
             
             <div class="formas-cabecalho">
-                <h2 class="titulo-formas">Cálculo da Área de um Círculo</h2>
+                <h2 class="titulo-formas">Cálculo da Área de um Quadrado</h2>
                 <h3 class="subtitulo-formas">Digite as informações necessarios para o cálculo</h3>
             </div>
             <div class="forma-imagem">
-                <img src="./images/circulo.png" alt="forma geometrica arredondada">
+                <img src="./images/contorno-de-forma-quadrada.png" alt="forma geometrica arredondada">
             </div>
             <div class="forma-info">
                 <div class="info-forma1">
-                    <h2>Área de um Círculo</h2>
-                    <p>A área de um círculo é a medida relacionada com a região limitada pela circunferência da figura plana.</p>
-                    <p>O cálculo é feito consoante o raio, ou seja, a distância do centro até um ponto qualquer da circunferência, e o valor do número pi (aproximadamente 3,141).</p>
-                    <p>Para calcular a área do círculo devemos utilizar a seguinte fórmula:</p>
+                    <h2>Área de um Quadrado</h2>
+                    <p>O quadrado é um polígono convexo que possui quatro lados. Em outras palavras, é uma figura geométrica plana que possui quatro lados congruentes e quatro ângulos retos. Dessa maneira, é chamado também de quadrilátero.</p>
+                    <p>Os quadrados pertencem a um universo de figuras geométricas conhecido como paralelogramos. Nesse universo também se encontram os losangos e os retângulos, que, respectivamente, são definidos como quadrilátero com lados congruentes e quadrilátero com ângulos retos.</p>
+                    <p>Dessa maneira, todo quadrado também é um retângulo, pois todo quadrado possui os ângulos internos retos, e também é um losango, pois possui os quatro lados congruentes.</p>
+                    <p>Os quadrados possuem uma propriedade específica herdada do retângulo e do losango:</p>
+                    <p>Em todo quadrado, as diagonais são congruentes e perpendiculares.</p>
+                    <p>Área: pode ser calculada por meio da fórmula a seguir:</p>
                 </div>  
                 <div class="info-forma2">
-                    <p>A = π . r2</p>
+                    <p>A = l²</p>
                     <p>Onde,</p>
-                    <p>π: constante Pi (3,14)</p>
-                    <p>r: raio</p>
+                    <p>l =  é o comprimento do lado do quadrado.</p>
                 </div>
-                <div class="info-forma1">
-                    <p>O cálculo desta medida é muito importante na engenharia civil, pois através dele é possível obter, por exemplo, a área circular de construção de uma piscina redonda, uma arena desportiva, uma cisterna ou, até mesmo, uma horta.</p>
-
-                    <p>Apesar de a figura do círculo estar estreitamente ligada à circunferência é importante ressaltar que se tratam de figuras diferentes.</p>
-
-                    <p>O círculo ou disco é uma figura pertencente ao âmbito da geometria plana, sendo formado por um conjunto de pontos dentro do plano, cuja superfície é limitada por uma circunferência.
-                    </p>
-
-                    <p>Dito isto, a circunferência, por sua vez, corresponde ao espaço geométrico de uma região circular.
-                    </p>
-
-                    <p>Por outras palavras, podemos dizer que o círculo consiste na região interna limitada pela circunferência. Além disso, ambas as figuras possuem dois elementos em comum, que são o diâmetro e o raio.
-                    </p>
-
-                    <p>Define-se por diâmetro uma espécie de corda que passa pelo centro do círculo. Já o raio é definido como a distância do centro até um ponto qualquer da circunferência, que equivale a metade do diâmetro.
-                    </p>
-                     
-                </div> 
+               
             </div>
         </section>
 
@@ -73,14 +58,14 @@
                             <h2>Calculadora de Formas</h2>
                         </div>
                         <div class="imagem-forma">
-                            <img src="./images/circulo.png" alt="">
+                            <img src="./images/contorno-de-forma-quadrada.png" alt="">
                         </div>
                         <div class="campo">
-                            <label>Raio do circulo: </label>
-                            <input type="text" name="raioCirculo" id="raioCirculo">
+                            <label>Comprimento do lado: </label>
+                            <input type="text" name="ladoQuadrado" id="ladoQuadrado">
                         </div>
                         <div class="campo">
-                            <label>Área do circulo: </label>
+                            <label>Área do quadrado: </label>
                             <input type='text' name="area" id="area" disabled>
                         </div>
                         <button type="submit" id="calcular">Calcular</button>
@@ -94,6 +79,6 @@
         <h5 class="autor-page">Feito por: Gustavo Araujo da Silva </h5>
     </footer>
 
-    <script src="./js/circulo.js"></script>
+    <script src="./js/quadrado.js"></script>
 </body>
 </html>

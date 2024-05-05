@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuboide</title>
+    <link rel="stylesheet" href="./assets/css/cuboide.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo"><img src="./images/forma-abstrata.png">
+                <h1 class="logo-titulo">Calculum</h1>
+            </span>
+        </nav>
+    </header>
+    <main>
+        <section class="forma-container">
+            <div class="voltar">
+                <a href="./index.html"> 
+                     
+                 <img src="./images/simbolo-de-seta-para-a-esquerda-em-um-circulo.png" alt="">
+  
+                </a>
+            </div>
+            
+            <div class="formas-cabecalho">
+                <h2 class="titulo-formas">Cálculo da Área de um Cuboide</h2>
+                <h3 class="subtitulo-formas">Digite as informações necessarios para o cálculo</h3>
+            </div>
+            <div class="forma-imagem">
+                <img src="./images/retangulo.png" alt="forma geometrica arredondada">
+            </div>
+            <div class="forma-info">
+                <div class="info-forma1">
+                    <h2>Área de um Cuboide</h2>
+                    <p>Em geometria , um cubóide é um hexaedro , um sólido de seis faces. Suas faces são quadriláteros . Cubóide significa "como um cubo ", no sentido de que ajustando os comprimentos das arestas ou os ângulos entre as faces, um cubóide pode ser transformado em cubo. Em linguagem matemática, um cubóide é um poliedro convexo cujo gráfico poliédrico é igual ao de um cubo.</p>
+                    <p>Um caso especial de cubóide é um cubóide retangular , com seis retângulos como faces e faces adjacentes encontrando-se em ângulos retos . Um cubo é um caso especial de cubóide retangular, com seis faces quadradas reunidas em ângulos retos.</p>
+                    <p>Pela fórmula de Euler, os números de faces F , de vértices V e de arestas E de qualquer poliedro convexo são relacionados pela fórmula </p>
+                </div>  
+                <div class="info-forma2">
+                    <p>F+VE=2.</p>
+                </div>
+                <div class="info-forma1">
+                    <p>No caso de um cubóide isto dá 6 + 8 – 12 = 2 ; isto é, como um cubo, um cubóide tem seis faces , oito vértices e doze arestas. Junto com os cubóides retangulares, qualquer paralelepípedo é um cubóide deste tipo, assim como um tronco quadrado (a forma formada pelo truncamento do vértice de uma pirâmide quadrada ).</p>
+  
+                </div> 
+            </div>
+        </section>
+
+        <section class="calculadora">
+            <form>
+                <fieldset>
+                    <div class="formulario">
+                        <div class="titulo-formulario">
+                            <h2>Calculadora de Formas</h2>
+                        </div>
+                        <div class="imagem-forma">
+                            <img src="./images/retangulo.png" alt="">
+                        </div>
+                        <div class="campo">
+                            <label>Comprimento do cuboide: </label>
+                            <input type="text" name="comprimentoCuboide" id="comprimentoCuboide">
+                        </div>
+                        <div class="campo">
+                            <label>Largura do cuboide : </label>
+                            <input type="text" name="larguraCuboide" id="larguraCuboide">
+                        </div>
+                        <div class="campo">
+                            <label>Altura do cuboide : </label>
+                            <input type="text" name="alturaCuboide" id="alturaCuboide">
+                        </div>
+                        <div class="campo">
+                            <label>Área do cuboide: </label>
+                            <input type='text' name="area" id="area" disabled>
+                        </div>
+                        <button type="submit" id="calcular">Calcular</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h5 class="copyright">©Calculum 2024</h5>
+        <h5 class="autor-page">Feito por: Gustavo Araujo da Silva </h5>
+    </footer>
+
+    <script src="./js/cuboide.js"></script>
+</body>
+</html>
