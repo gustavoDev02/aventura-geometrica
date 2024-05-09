@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poligono regular</title>
+    <link rel="stylesheet" href="./assets/css/poligono.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo"><img src="./images/forma-abstrata.png">
+                <h1 class="logo-titulo">Calculum</h1>
+            </span>
+        </nav>
+    </header>
+    <main>
+        <section class="forma-container">
+            <div class="voltar">
+                <a href="./index.html"> 
+                     
+                 <img src="./images/simbolo-de-seta-para-a-esquerda-em-um-circulo.png" alt="">
+  
+                </a>
+            </div>
+        </section>
+
+        <section class="calculadora">
+            <form>
+                <fieldset>
+                    <div class="formulario">
+                        <div class="titulo-formulario">
+                            <h2>Calculadora de Formas</h2>
+                        </div>
+                        <div class="imagem-forma">
+                            <img src="./images/hexagono.png" alt="">
+                        </div>
+                        <div class="campo">
+                            <label> Escolha um poligono: </label>
+                           
+                            <select id="escolhaForma" name="select">
+                                <option value="3">triangulo</option>
+                                <option value="5">Pentágo</option>
+                                <option value="6">Hexagono</option> 
+                            </select>
+  
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Comprimento: </label>
+                            <input type='text' name="comprimentoLado" id="comprimentoLado" >
+                        </div>
+
+                        <div class="campo">
+                            <label>Area do poligono: </label>
+                            <input type='text' name="area" id="area" disabled>
+                        </div>
+                        <button type="submit" id="calcular">Calcular</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h5 class="copyright">©Calculum 2024</h5>
+        <h5 class="autor-page">Feito por: Gustavo Araujo da Silva </h5>
+    </footer>
+
+    <script src="./js/poligono.js"></script>
+</body>
+</html>
